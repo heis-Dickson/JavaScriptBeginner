@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <style>
+      #block{
+        background: yellow;
+        height: 100px;
+        width: 100px;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div id="block"></div>
+    <button onclick="onSubmit()">Change Colour</button>
+    <br/>
+    <button onclick="revert()">Revert Colour</button>
+  </body>
+  
+  <script>
+    function onSubmit(){
+      
+    
+    var block = document.getElementById("block");
+      
+      block.style.background = 'blue';
+      
+    }
+    function revert(){
+      var block = document.getElementById("block");
+      block.style.background = 'yellow';
+    }
+    </script>
+</html>
