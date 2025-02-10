@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+  </head>
+  
+  <body>
+    <div id="block"></div>
+  </body>
+  
+ 
+  <script>
+    
+      //Create a paragraph element
+      const createParagraph = document.createElement('p');
+      
+      //Create a text element
+      const text = document.createTextNode('This is a new paragraph added gynamically with Javascript!');
+      
+      createParagraph.appendChild(text);
+      
+      const block = document.getElementById('block');
+      
+      block.appendChild(createParagraph);
+      
+    </script>
+</html>
