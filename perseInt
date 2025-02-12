@@ -1,0 +1,10 @@
+function add(){
+  var a = 5;
+  //We parse the string as an int
+  var b = parseInt("12");
+  
+  return a + b;
+  
+}
+
+console.log(add());
